@@ -1,0 +1,23 @@
+{
+	"name": "php-base/processes",
+	"type": "library",
+	"description": "Better abstractions for running processes in PHP",
+	"keywords": [ "PHP" ],
+	"homepage": "https://github.com/kwvanderlinde/php-base-processes",
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "Kenneth VanderLinde",
+			"email": "kwvanderlinde@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Base\\Processes\\": "src/"
+		}
+	}
+}
