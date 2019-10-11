@@ -13,11 +13,15 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.0",
+		"php-base/exceptions": "^2.0"
 	},
 	"autoload": {
 		"psr-4": {
 			"Base\\Processes\\": "src/"
-		}
+		},
+		"files": [
+			"functions.php"
+		]
 	}
 }
