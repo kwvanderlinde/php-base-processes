@@ -20,7 +20,7 @@ class ExecResult
 
 	public function getReturnValue(): int
 	{
-		return $returnValue;
+		return $this->returnValue;
 	}
 
 	/**
@@ -28,7 +28,7 @@ class ExecResult
 	 */
 	public function getOutputLines(): array
 	{
-		return $outputLines;
+		return $this->outputLines;
 	}
 }
 }
